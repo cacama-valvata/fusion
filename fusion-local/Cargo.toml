@@ -1,0 +1,10 @@
+[package]
+name = "fusion-local"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[target.'cfg(windows)'.build-dependencies]
+static_vcruntime = "2.0"
+
